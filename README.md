@@ -7,6 +7,26 @@ were identified by reviewing the application's screens.
 
 ---
 
+## Project Folder Structure
+
+In this project, we use a combination of **Feature-Based Architecture** and **Atomic Design** to keep the code organized, reusable, and easy to maintain
+
+### Feature-Based Structure
+
+- Each feature has its own folder inside the `features` directory
+- Each feature contains all the components and files related to it
+- Example: `auth`, `dashboard`, `members`, `projects`, and `tasks`
+- All components related to a specific feature are kept together
+
+### Atomic Design Structure
+
+Each feature is organized into smaller folders based on the role and complexity of its components:
+
+1. **Atoms:** Basic building blocks that cannot be broken down further, such as buttons and inputs
+2. **Molecules:** Groups of atoms working together as a single component, such as a form field containing a label and an input
+3. **Organisms:** Larger components composed of atoms and molecules, such as login forms or navigation bars
+4. **Templates:** Define the overall layout and arrangement of components on a page, providing a structure for the page content
+
 ## Shared Components
 
 | #   | Component    | Description                              | Used In                       | Screenshot                                          |

@@ -28,7 +28,10 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
-    "**/*.mts"
+    "**/*.mts",
+    "src/features/projects/templates/.gitkeep",
+    "src/features/projects/organisms/.gitkeep",
+    "src/features/projects/molecules/.gitkeep"
   ],
   "exclude": ["node_modules"]
 }
